@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
+
+.title{
+	font-family: 'Cinzel Decorative';
+}
+
+.subTitle{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+#responsivemenu li {
+margin: 0px 15px;
+}
+.undermenuarea {	padding-top:0;margin-top:0;background-color: #f5f5f5;}
+
+/* gate keeper colors from old site - lightest to darkest */
+.font-red0 { color: #F60;}
+.back-red0 { background-color: #F60;}
+.font-red1 { color: #c33;}
+.back-red1 { background-color: #c33;}
+.font-red2 { color: #990000;}
+.back-red2 { background-color: #990000;}
+
+.font-grey0 { color: #f5f5f5;}
+.back-grey0 { background-color: #f5f5f5;}
+.font-grey1 { color: #bbb;}
+.back-grey1 { background-color: #bbb;}
+.font-grey2 { color: #666;}
+.back-grey2 { background-color: #666;}
+
+.font-blue0 { color: #0062ce;}
+.back-blue0 { background-color: #0062ce;}
+.font-blue1 { color: #0169a5;}
+.back-blue1 { background-color: #0169a5;}
+.font-blue2 { color: #006699;}
+.back-blue2 { background-color: #006699;}
+
+.font-yello { color: #fafa5a;}
+.back-yello { background-color: #fafa5a;}
+
+.gkgSlide{	
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;"
+}
+
+.gallery{
+  position: relative;
+  overflow: hidden;  
+  background-color: #0062ce;
+  padding-top:0;
+  margin-top:0;
+}
+.gallery .movable{
+  display: flex;
+  height: 70vh;
+  transition: transform 0.9s;
+}
+.gallery .movable > div {
+  flex:1;
+  min-width: 100%
+}
+
+/*
+.logoBlock{
+	position: relative; 
+	float:left;
+	max-width:300px;
+	text-align:center;
+	vertical-align:middle;
+	display: table;
+}
+
+.logoImg{
+		position: relative; 
+	float:left;
+	margin:0;
+	border:0;
+	padding:0;
+	text-indent:0px;
+	max-height:50px;
+	display:table-column;
+}
+.logoText{
+		position: relative; 
+	float:left;
+	margin:0;
+	border:0;
+	padding:0;
+	text-indent:0px;
+	max-height:15px;
+	display:table-column;
+}
+
+.logoLine{
+	display:table-row;
+}
+*/
+
+.bnrBlock{
+  width: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  text-align:center;
+  height: 65px;
+  text-indent: 0px;
+  
+  
+}
+
+.bnr30cell{		
+	line-height:50px;
+	flex: 1 30%;
+}
+.bnr70cell{
+	line-height:50px;
+	flex: 1 70%;
+}
+.bnr100cell{
+	line-height:15px;	
+    flex: 1 100%;
+}
+
+
